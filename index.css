@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background-color: #009edb;
+}
+.wrapper{
+  display: flex;
+background-color:#009edb;
+justify-content: center;
+}
+
+.contentContainer{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+ height: 100%;
+ width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+background-color: white;
+border: 1px;
+border-radius: 10px;
+}
+.Header{
+  height: fit-content;
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/7476482-ilustracao-da-vida-marinha-sob-o-mar-lula-e-peixe-que-nada-atraves-de-coral-vetor.jpg);
+background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+  
+} 
+.sectionInfos{
+  padding-left: 40px;
+}
